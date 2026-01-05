@@ -1,0 +1,21 @@
+.head {
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.taks {
+  text-align: center;
+  text-decoration: underline;
+}
+.panda {
+  width: 400px;
+  height: 400px;
+}
+.body-continear {
+  border: 2px solid black;
+  padding: 10px;
+}
+.fedback {
+  border: 2px solid black;
+}

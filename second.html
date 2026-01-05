@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>second-Practice</title>
+  </head>
+  <link rel="stylesheet" href="first.css" />
+  <style>
+    * {
+      margin: 0 mx-auto;
+    }
+
+    ul,
+    li {
+      list-style: none;
+      color: black;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: black;
+      margin-right: 20px;
+    }
+  </style>
+  <body>
+    <div class="head">
+      <ul>
+        <li>
+          <a href="first.html">First-Practice <b>1</b></a>
+          <a href="second.html">Second-Practice <b>2</b></a>
+          <a href="therd.html">Therd-Practice <b>3</b></a>
+          <a href="index.html">Last-Practice <b>4</b></a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <form>
+        <!-- Story textarea -->
+        <label for="story">Your Story:</label><br />
+        <textarea id="story" name="story" rows="6" cols="50"></textarea>
+        <br /><br />
+
+        <!-- Rating dropdown -->
+        <label for="rating">Rate the Story:</label><br />
+        <select id="rating" name="rating">
+          <option value="good">Good</option>
+          <option value="very_good">Very Good</option>
+          <option value="excellent">Excellent</option>
+        </select>
+        <br /><br />
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
